@@ -22,19 +22,32 @@ public class pdf3rd {
         System.out.println("enter a number");
         int A=in.nextInt();
         System.out.println(" ");
-        int check=0;
+        //int check=0;
         int sum=0;
+        int product=1;
         for(int i=1;i<=A;i++){
             sum=sum+i;
-            check++;
-        }
+        }    
         System.out.println("sum="+sum);
-        
-
-
+        for(int i=1;i<=A;i++){
+            product=product*i;
+        }
+        System.out.println("product="+product);
+    }
+    public static void digit(){
+       int digit=123;
+      int check=0;
+      int sum=0;
+       for(int i=0;i<=digit;i++){
+        sum+=i;
+       // check++;
+       }
+       System.out.println("sum="+sum);
+       
     }
     public static void main(String[] args){
-        //naturalnumberandreverse();
+        naturalnumberandreverse();
         sum();
+        digit();
     }
 }

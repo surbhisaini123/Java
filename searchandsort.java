@@ -15,28 +15,41 @@ public class searchandsort {
     // public static void main(String[]args){
     //     int [] arr={2,4,6,3,7};
     //     bblesort();
-    // }
-     public static int search1(){
-        int [] arr={1,2,3,4,5};
-        int target = 4;
-        int start=0;
-        int end;
-        int mid= (arr[start]+arr[end])/2;
-        while(start<==end){
-            if(target==mid){
-                return mid;
+    //} 
+    //  public static int search1(){
+    //     int [] arr={1,2,3,4,5};
+    //     int target = 4;
+    //     int start=0;
+    //     int end;
+    //     int mid= (arr[start]+arr[end])/2;
+    //     while(start<==end){
+    //         if(target==mid){
+    //             return mid;
+    //         }
+    //         else if(target>mid){
+    //             return start+1;
+    //         }
+    //         else{
+    //             return end-1;
+    //         }
+    //         return -1;
+    //     }
+    //  }
+      public static void sort(){
+         String [] str={"B","A","C"};
+         for(int i=0;i<str.length-1;i++){
+            for(int j=0;j<str.length-1-i;j++){
+                if(str[j].charAt(0)>str[j+1].charAt(0)){
+                    String temp=str[i];
+                    str[j]=str[j+1];
+                    str[j+1]=temp;
+                }
             }
-            else if(target>mid){
-                return start+1;
-            }
-            else{
-                return end-1;
-            }
-            return -1;
-        }
-     }
+         }
+         System.out.println(str);
+      }
      public static void main(String[] args){
-        search1();
+        sort();
      }
 
     
