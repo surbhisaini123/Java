@@ -46,7 +46,7 @@ public class searchandsort {
                 }
             }
          }
-         System.out.println(str);
+         System.out.println(temp);
       }
      public static void main(String[] args){
         sort();
