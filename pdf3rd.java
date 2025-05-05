@@ -1,5 +1,7 @@
+//CLASS OBJECT QUESTION 
+
 import java.util.Scanner;
-public class pdf3rd {
+public class class_object{
     public static void naturalnumberandreverse(){
         Scanner in = new Scanner(System.in);
         
@@ -36,7 +38,7 @@ public class pdf3rd {
     }
     public static void digit(){
        int digit=123;
-      int check=0;
+      //int check=0;
       int sum=0;
        for(int i=0;i<=digit;i++){
         sum+=i;
