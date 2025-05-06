@@ -1,7 +1,7 @@
-//CLASS OBJECT QUESTION 
+//METHOD QUESTION 
 
 import java.util.Scanner;
-public class class_object{
+public class pdf3rd{
     public static void naturalnumberandreverse(){
         Scanner in = new Scanner(System.in);
         

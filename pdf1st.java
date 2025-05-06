@@ -32,7 +32,7 @@ public class pdf1st {
         int even=0;
         int odd=0;
         for(int i=0;i<arr3.length;i++){
-            System.out.println(arr3[i]);
+           System.out.println(arr3[i]);
             if(arr3[i]%2==0){
                System.out.println("number is even="+even);
                 even++;

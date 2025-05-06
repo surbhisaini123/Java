@@ -5,7 +5,7 @@ public class method {
     Scanner in=new Scanner(System.in);
     System.out.println("enter a size of array");
     int arr=in.nextInt();
-    i//nt arr1[]=new int[arr];
+    int arr1[]=new int[arr];
     int sum=0;
     System.out.println("enter a element of array");
 
