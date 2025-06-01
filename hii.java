@@ -1,3 +1,4 @@
+//package vscode;
 public class hii {
     public static void main(String[]args){
         // int[] arr={1,2,3,4,56,67,7,8,9};
@@ -46,11 +47,11 @@ public class hii {
         // }
        // System.out.println(count);
         
-     StringBuilder str=new StringBuilder(16);
-     str.append("hello hii byyyy sorry qsui us xjdshbfjs");
-     //old*2+2
-     System.out.println(str.length());
-     System.out.println(str.capacity());
+    //  StringBuilder str=new StringBuilder(16);
+    //  str.append("hello hii byyyy sorry qsui us xjdshbfjs");
+    //  //old*2+2
+    //  System.out.println(str.length());
+    //  System.out.println(str.capacity());
 
         
     }

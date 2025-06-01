@@ -106,7 +106,7 @@ class BankAccount{
             System.out.println("error");
         }
         System.out.println(balance +amount);
-        System.out.println("total balance=" +balance +amount);
+        System.out.println("total balance=" +balance );
     }
 
     void withdraw(){

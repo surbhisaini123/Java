@@ -47,28 +47,12 @@ public class pdf3rd{
        check++;
        System.out.println("sum="+sum);
        
-    }
-    public static void palindron(){
-        int S=123;
-        int check=0;
-        int count;
-        int i,j;
-        for(i=0;i<=S;i++){
-            check++;
-           for( j=S;j>0;j++){
-               check--;
-           }
-           if(i==j){
-            System.out.println(" palindrone");
-        }
-        }
-        //System.out.println(count);
-        
-    }
+     }
+   
     public static void main(String[] args){
         naturalnumberandreverse();
         sum();
         digit();
-        palindron();
+       
     }
 }
