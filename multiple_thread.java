@@ -1,5 +1,6 @@
 class filedownload{
     String filename;
+    //Constroctor ====>>
     filedownload(String filename){
         this.filename=filename;
     }
@@ -25,8 +26,10 @@ public class multiple_thread {
     public static void main(String[] args){
         filedownload t1= new filedownload("A");
          filedownload t2= new filedownload("B");
+        //  t1.start();
+        // t2.start()
          
-         obj.run();
+         
 
         
 
