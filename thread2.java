@@ -45,6 +45,5 @@ public class thread2{
         withdraw t2=new withdraw(300);
         t1.start();
         t2.start();
-  
-    }
+      }
 }
